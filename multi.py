@@ -1,6 +1,7 @@
 #!python3
-import sys
 
+#creates multiplication table based on the argument provided (sys.argv)
+import sys
 import openpyxl
 from openpyxl.styles import Font
 
