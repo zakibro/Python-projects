@@ -1,3 +1,5 @@
+"""Simple script that "plays" the 2048"""
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 browser = webdriver.Firefox()
