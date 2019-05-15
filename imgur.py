@@ -1,5 +1,5 @@
 #!python3
-
+#skrypt ściąga obrazki z imgur/ test "jimi cool"
 import requests, os, bs4
 
 url = 'https://imgur.com/search?q='
