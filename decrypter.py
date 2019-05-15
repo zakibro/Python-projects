@@ -1,5 +1,7 @@
 #! python3
 
+""" "sister" file for encrypter.py - tries to decrypt the file """"
+
 import sys
 import os
 import PyPDF2
