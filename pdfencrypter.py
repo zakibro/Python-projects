@@ -5,10 +5,11 @@ import os
 import PyPDF2
 
 password = sys.argv[1]
+#Dodaj ściężkę do walk.os
 
 
 
-for folderName, subfolders, filenames in os.walk('C://Users//PabloD//Desktop//python_projects'):
+for folderName, subfolders, filenames in os.walk('XXXX'):
     for filename in filenames:
         if filename.endswith('.pdf'):
             pdfReader = PyPDF2.PdfFileReader(open(os.path.join(folderName, filename), 'rb'))
