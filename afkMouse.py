@@ -9,5 +9,5 @@ while True:
         pyautogui.moveRel(-10, 0, duration=0.25)
         time.sleep(10)
     except KeyboardInterrupt:
-        print('Nareczka')
+        print('Breaking the loop!')
         break
